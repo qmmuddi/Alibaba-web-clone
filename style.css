@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.container-0 {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i {
+    margin: 8px;
+}
+
+.Signup-button {
+    height: 30px;
+    width: 100px;
+    border: 1px solid #ff6600;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.Signup-button p {
+    font-size: 15px;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.container-2 {
+    height: 450px;
+    background-image: url("https://s.alicdn.com/@img/imgextra/i4/O1CN01ustqhi1Tz44lu4arh_!!6000000002452-0-tps-3840-1248.jpg_q60.jpg");
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    padding: 71px 0px;
+    margin: 0px;
+
+}
+
+.head-p-button i,
+p {
+    color: #fff;
+    display: inline;
+
+}
+
+.cen-head h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.search-input input {
+    height: 45px;
+    width: 550px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.searchbutton {
+    height: 50px;
+    width: 110px;
+    background-color: #ff6600;
+    border: 1px solid #ff6600;
+    border-radius: 20px;
+    color: #fff;
+}
+
+button i,
+p {
+    display: inline;
+}
+
+.p-cont p {
+    display: inline;
+    margin: 10px;
+}
+
+.p-cont-1 {
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 18px;
+
+}
+
+.container-3 {
+    height: 400px;
+    background-color: #3a190b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-3 {
+    height: 350px;
+    width: 320px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 15px;
+    /* align-items: center; */
+
+}
+
+.box-3 p {
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.box-3 img,
+h1,
+p {
+    /* align-items: center;
+    justify-content:center; */
+    margin: 22px;
+    padding: 10px 0px;
+}
+
+.box-3:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.container-5 {
+    height: 700px;
+    background-color: lightgray;
+    display: grid;
+    /* grid-column-gap: 50px;
+    grid-row-gap: 50px; */
+    grid-template-rows: 10px 10px auto;
+    grid-template-columns: 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.box-5 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: red;
+    
+}
+
+
+
+
+
+
+.container-6 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+
+
+
+
+.box-6 {
+    height: 350px;
+    width: 350px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.box-6 img {
+    border-radius: 20px;
+}
+
+.container-7 {
+    height: 600px;
+    /* background-color: rgb(139, 89, 89); */
+    background-image: url("https://s.alicdn.com/@img/imgextra/i3/O1CN01FaQ37w1Zb91Cymass_!!6000000003212-0-tps-1920-456.jpg");
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-7 {
+    height: 450px;
+    width: 500px;
+    background-color: hsla(0, 0%, 100%, .11);
+    border: 1px solid;
+    border-radius: 19px;
+    margin: 19px 19px;
+    cursor: pointer;
+}
+
+.box-7 h1 {
+    color: rgb(53, 247, 247);
+}
+
+.box-7 h2 {
+    color: #ff6600;
+}
+
+.box-7 p {
+    font-size: 22px;
+}
+
+.box-7:hover {
+    background-color: #3a190b;
+    color: #fff;
+}
+
+.wtc-vid-btn {
+    display: block;
+    height: 50px;
+    width: 130px;
+    background-color: rgb(61, 59, 59);
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.box-7 h1,
+h2,
+p {
+    margin: 48px 0px;
+}
+
+.container-8 {
+    height: 600px;
+    background-color: whitesmoke;
+
+}
+
+.container-8 h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
